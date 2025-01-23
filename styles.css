@@ -1,0 +1,120 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightsalmon;
+    margin: 0;
+}
+
+header {
+    padding-top: 1rem;
+    background-color: teal;
+    color: lightsalmon;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    color: lightsalmon;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 640px) {
+    li {
+        display: block;
+        text-align: center;
+    }
+}
+
+.intro {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url(Canyon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro p {
+    color: coral;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+}
+
+.summary {
+    padding: 0 1rem;
+}
+
+.summary h2 {
+    color: yellow;
+}
+
+.summary p {
+    color: white;
+}
+
+.photos img {
+  width: 30%;
+  margin: 1.5%;
+}
+
+@media only screen and (max-width: 1048px) {
+    .photos img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.testimonial {
+    color: yellow;
+    background-color: teal;
+    height: 20rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+}
+
+.testimonial-big {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.fun {
+    text-align: center;
+    color: yellow;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.meetup img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1048px) {
+    .meetup img {
+        width: 80%;
+    }
+}
+
+.summary, .testimonial, .photos, .meetup {
+    margin: 4em auto;
+}
+
+footer {
+    padding-top: 1rem;
+    background-color: teal;
+    color: lightsalmon;
+}
